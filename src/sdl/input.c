@@ -1136,6 +1136,7 @@ void SDL_INPUT_Mouse(void)
 
 static void Init_SDL_Joysticks(int first, int second)
 {
+return;
 	if (first) {
 		joystick0 = SDL_JoystickOpen(0);
 		if (joystick0 == NULL)
